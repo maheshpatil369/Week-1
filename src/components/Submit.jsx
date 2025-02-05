@@ -21,8 +21,7 @@ const Submit = () => {
         />
         <button
           type="submit"
-          className='px-4 text-white py-3 m-5 text-xl font-semibold bg-emerald-600 rounded'
-        >
+          className='px-4 text-white py-3 m-5 text-xl font-semibold bg-emerald-600 rounded'>
           Submit
         </button>
       </form>
