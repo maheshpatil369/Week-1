@@ -1,16 +1,12 @@
-import React, { useState } from 'react'
+import React from 'react';
+import Submit from './components/Submit/';
 
 function App() {
-
-const [val,setVal] = useState(12);
-
   return (
-    <div className='p-4'>
-      <h1>{val}</h1>
-      <button onClick={()=>setVal(prev=>prev+4)} className='px-3 py-1 bg-blue-400 rounded-full'>Change Karo</button>
-      
-    </div>
-  )
+    <>
+      <Submit />
+    </>
+  );
 }
 
-export default App
+export default App;
