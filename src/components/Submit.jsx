@@ -20,7 +20,7 @@ const Submit = () => {
           className='border p-2 rounded w-full'
         />
         <button
-          type="submit"
+          type="submit" 
           className='px-4 text-white py-3 m-5 text-xl font-semibold bg-emerald-600 rounded'>
           Submit
         </button>
